@@ -1,0 +1,68 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+   background-image: url('https://img.freepik.com/fotos-gratis/vista-superior-de-hamburguer-de-carne-pronta-para-ser-servido_23-2148290623.jpg?w=1380&t=st=1702415046~exp=1702415646~hmac=da2a360eec8cb0782cc64105a199c7cf8a020e72d84e47a886cce26d6a6bdf14');
+    
+}
+
+.containe-button {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button{
+    background-color: #79cb15;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 110px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 20px;
+    justify-content: center;
+}
+
+li{
+    border: 2px solid #8133ff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+p {
+    color: #ffffff;
+}
+
+.iten-price {
+    font-weight: bolder;
+    color: #79cb15;
+
+}
